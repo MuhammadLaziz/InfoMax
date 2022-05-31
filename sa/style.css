@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slider{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.slider-wrapper {
+    display: flex;
+}
+.container {
+    width: 35px;
+    overflow: hidden;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+
+}
+.slider-col {
+    color: black;
+}

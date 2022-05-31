@@ -13,33 +13,33 @@
       referrerpolicy="no-referrer"
     />
     <link
-        rel="stylesheet"
-        href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
     />
     <title>InfoMax</title>
   </head>
   <body>
     <header class="header">
-      <!-- TopPart -->
-      <!-- header__navigation -->
-      <div class="header_linear">
+      
+      <div class="header__linear">
         <div class="header-navigation">
           <div class="container">
             <div class="header-top">
-              <div class="header-top-contact">
-                <div class="header-contact-icon-location">
+              <!-- __ -->
+              <div class="header-top__contact">
+                <div class="header-top__contact-icon-location">
                   <span class="header-top-icon">
                     <i class="fa-solid fa-location-dot"></i>
                   </span>
-                  <span class="header-contact-icon-location-name"
+                  <span class="header-top__contact-icon-location-name"
                     >Aurora, Illinois, U.S.A</span
                   >
                 </div>
-                <div class="header-contact-icon-phone">
+                <div class="header-top__contact-icon-phone">
                   <span class="header-top-icon">
                     <i class="fa-solid fa-phone"></i>
                   </span>
-                  <span class="header-contact-icon-phone-number"
+                  <span class="header-top__contact-icon-phone-number"
                     >630-413-0404</span
                   >
                 </div>
@@ -58,26 +58,24 @@
             </div>
           </div>
 
-          <!-- Navbar -->
           <nav class="header__nav">
             <div class="container">
-              <ul class="header_nav-list">
-                <li class="header__nav-item">Carriers</li>
-                <li class="header__nav-item">Shippers</li>
-                <li class="header__nav-item">Who we are</li>
-                <li class="header__nav-item">Insights</li>
-                <li class="header__nav-item">Careers</li>
-                <li class="header__nav-item">Contact us</li>
+              <ul class="header__nav-list">
+                <li class="header__nav-list-item">Carriers</li>
+                <li class="header__nav-list-item">Shippers</li>
+                <li class="header__nav-list-item">Who we are</li>
+                <li class="header__nav-list-item">Insights</li>
+                <li class="header__nav-list-item">Careers</li>
+                <li class="header__nav-list-item">Contact us</li>
               </ul>
             </div>
           </nav>
         </div>
-
-        <section class="header__slider-wrapper swiper mySwiper">
-          <!-- <div class="container"> -->
-            <div class="swiper-wrapper">
-
-              <div class="header-slides swiper-slide">
+        <!-- swiper mySwiper -->
+        <section class="header__slider-wrapper">
+          <div class="header__slider-wrapper-way">
+            <div class="header__slider-slider">
+              <div class="header-slides">
                 <h2 class="header__slider-title">
                   We provide the best equipment on the roads
                 </h2>
@@ -89,7 +87,19 @@
                   More <span class="header__btn-navigation">></span>
                 </button>
               </div>
-              <div class="header-slides swiper-slide">
+              <div class="header-slides">
+                <h2 class="header__slider-title">
+                  We provide the best equipment on the roads
+                </h2>
+                <p class="header__slider-text">
+                  Our commitment is to deliver the brokerage services nationwide
+                  with a piece of mind
+                </p>
+                <button class="header__btn">
+                  More <span class="header__btn-navigation">></span>
+                </button>
+              </div>
+              <div class="header-slides">
                 <h2 class="header__slider-title">
                   We provide the best equipment on the roads
                 </h2>
@@ -102,34 +112,17 @@
                 </button>
               </div>
             </div>
-            <div class="swiper-pagination"></div>
-          <!-- <div class="header-slides">
-            <h2 class="header__slider-title">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
-              ipsa sint ad corrupti necessitatibus exercitationem.
-            </h2>
-            <p class="header__slider-text">
-              Our commitment is to deliver the brokerage services nationwide
-              with a piece of mind
-            </p>
-            <button class="header__btn">
-              More <span class="header__btn-navigation">></span>
-            </button>
-          </div> -->
-          <!-- <div class="header-slides">
-            <h2 class="header__slider-title">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Delectus, soluta?
-            </h2>
-            <p class="header__slider-text">
-              Our commitment is to deliver the brokerage services nationwide
-              with a piece of mind
-            </p>
-            <button class="header__btn">
-              More <span class="header__btn-navigation">></span>
-            </button>
-          </div> -->
-          <!-- </div> -->
+          </div>
+
+          <div class="header__slider-controler">
+            <div
+              class="header__slider-controler-controls header__slider-controler-controls-1"
+            ></div>
+            <div
+              class="header__slider-controler-controls header__slider-controler-controls-2"
+            ></div>
+            <div class="active"></div>
+          </div>
         </section>
       </div>
     </header>
@@ -214,170 +207,241 @@
 
     <section class="about">
       <div class="container">
-          <div class="swiper mySwiper">
-              <div class="swiper-wrapper">
-                  <div class="about__wrapper swiper-slide">
-                      <div class="about__wrapper-left">
-                          <img class="about__wrapper-left-img" src="./Assets/images/main-track.png" alt="">
-                      </div>
-                      <div class="about__wrapper-right">
-                          <div class="about__wrapper-right-quatation">
-                              <img src="./Assets/images/quatation.png" class="about__wrapper-right-quatation-img" alt="">
-                          </div>
-                          <h3 class="about__wrapper-right-title">Infomax Freight is an asset-based brokerage headquartered in Aurora IL. We the people, result- driven, enthusiastic with right incentives and leadership to perform</h3>
-                      </div>
-                  </div>
-                  <div class="about__wrapper swiper-slide">
-                    <div class="about__wrapper-left">
-                        <img class="about__wrapper-left-img" src="./Assets/images/main-track.png" alt="">
-                    </div>
-                    <div class="about__wrapper-right">
-                        <div class="about__wrapper-right-quatation">
-                            <img src="./Assets/images/quatation.png" class="about__wrapper-right-quatation-img" alt="">
-                        </div>
-                        <h3 class="about__wrapper-right-title">Infomax Freight is an asset-based brokerage headquartered in Aurora IL. We the people, result- driven, enthusiastic with right incentives and leadership to perform</h3>
-                    </div>
-                </div>
-                    <div class="about__wrapper swiper-slide">
-                        <div class="about__wrapper-left">
-                            <img class="about__wrapper-left-img" src="./Assets/images/main-track.png" alt="">
-                        </div>
-                        <div class="about__wrapper-right">
-                            <div class="about__wrapper-right-quatation">
-                                <img src="./Assets/images/quatation.png" class="about__wrapper-right-quatation-img" alt="">
-                            </div>
-                            <h3 class="about__wrapper-right-title">Infomax Freight is an asset-based brokerage headquartered in Aurora IL. We the people, result- driven, enthusiastic with right incentives and leadership to perform</h3>
-                        </div>
-                    </div>
+        <div class="about__slider__wrapper">
+          <div class="about__wrapper">
+            <div class="about__wrapper-left">
+              <img
+                class="about__wrapper-left-img"
+                src="./Assets/images/main-track.png"
+                alt=""
+              />
+            </div>
+            <div class="about__wrapper-right">
+              <div class="about__wrapper-right-quatation">
+                <img
+                  src="./Assets/images/quatation.png"
+                  class="about__wrapper-right-quatation-img"
+                  alt=""
+                />
               </div>
-              <div class="swiper-pagination"></div>
+              <h3 class="about__wrapper-right-title">
+                Infomax Freight is an asset-based brokerage headquartered in
+                Aurora IL. We the people, result- driven, enthusiastic with
+                right incentives and leadership to perform
+              </h3>
+            </div>
           </div>
+          <div class="about__wrapper">
+            <div class="about__wrapper-left">
+              <img
+                class="about__wrapper-left-img"
+                src="./Assets/images/main-track.png"
+                alt=""
+              />
+            </div>
+            <div class="about__wrapper-right">
+              <div class="about__wrapper-right-quatation">
+                <img
+                  src="./Assets/images/quatation.png"
+                  class="about__wrapper-right-quatation-img"
+                  alt=""
+                />
+              </div>
+              <h3 class="about__wrapper-right-title">
+                Infomax Freight is an asset-based brokerage headquartered in
+                Aurora IL. We the people, result- driven, enthusiastic with
+                right incentives and leadership to perform
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="about__silder__controler">
+          <div class="about__silder__controler-controls1"></div>
+          <div class="about__silder__controler-controls2"></div>
+          <div class="about__silder__controler-active"></div>
+        </div>
       </div>
     </section>
 
     <section class="withus">
-        <h1 class="withus__title">why work with us?</h1>
-        <div class="withus__wrapper">
-            <div class="withus__wrapper-content">
-                <div class="withus__wrapper-content-left">
-                    <div class="withus__wrapper-content-left-title-box">
-                        <h3 class="withus__wrapper-content-left-title">Ship with us!</h3>
-                        <img src="./Assets/images/withUs/lines/first-line.png" class="withus__wrapper-content-left-title-line" alt="">
-                    </div>
-                    <p class="withus__wrapper-content-left-text">INFOMAX offers consistently superior service to our customers through personalized communication, ongoing attention to detail, and a "do whatever it takes" attitude on every single shipment.</p>
-                </div>
-                <div class="withus__wrapper-content-right">
-                    <img src="./Assets/images/withUs/first.png" alt="Image">
-                </div>
+      <h1 class="withus__title">why work with us?</h1>
+      <div class="withus__wrapper">
+        <div class="withus__wrapper-content">
+          <div class="withus__wrapper-content-left">
+            <div class="withus__wrapper-content-left-title-box">
+              <h3 class="withus__wrapper-content-left-title">Ship with us!</h3>
+              <img
+                src="./Assets/images/withUs/lines/first-line.png"
+                class="withus__wrapper-content-left-title-line"
+                alt=""
+              />
             </div>
-            <div class="withus__wrapper-content">
-                <div class="withus__wrapper-content-right">
-                    <img src="./Assets/images/withUs/second.png" alt="Image">
-                </div>
-                <div class="withus__wrapper-content-left withus__wrapper-content-left-modif">
-                    <div class="withus__wrapper-content-left-title-box">
-                        <h3 class="withus__wrapper-content-left-title">Partner with us!</h3>
-                    </div>
-                    <p class="withus__wrapper-content-left-text">INFOMAX offers consistently superior service to our customers through personalized communication, ongoing attention to detail, and a "do whatever it takes" attitude on every single shipment.</p>
-                </div>
-            </div>
-            <div class="withus__wrapper-content">
-                <div class="withus__wrapper-content-left">
-                    <div class="withus__wrapper-content-left-title-box">
-                        <h3 class="withus__wrapper-content-left-title">Join the team!</h3>
-                        <img src="./Assets/images/withUs/lines/first-line.png" class="withus__wrapper-content-left-title-line" alt="">
-                    </div>
-                    <p class="withus__wrapper-content-left-text">INFOMAX offers consistently superior service to our customers through personalized communication, ongoing attention to detail, and a "do whatever it takes" attitude on every single shipment.</p>
-                </div>
-                <div class="withus__wrapper-content-right">
-                    <img src="./Assets/images/withUs/third.png" alt="Image">
-                </div>
-            </div>
+            <p class="withus__wrapper-content-left-text">
+              INFOMAX offers consistently superior service to our customers
+              through personalized communication, ongoing attention to detail,
+              and a "do whatever it takes" attitude on every single shipment.
+            </p>
+          </div>
+          <div class="withus__wrapper-content-right">
+            <img src="./Assets/images/withUs/first.png" alt="Image" />
+          </div>
         </div>
-        <div class="withus__lines-icons">
-            <img src="./Assets/images/withUs/kema.png" class="withus__lines-icons-img" alt="">
-            <img src="./Assets/images/withUs/lines/bigest.png" class="withus__lines-icons-img" alt="">
-            <img src="./Assets/images/withUs/partners.png" class="withus__lines-icons-img withus__lines-icons-img-back" alt="">
-            <img src="./Assets/images/withUs/lines/bigest.png" class="withus__lines-icons-img" alt="">
-            <img src="./Assets/images/withUs/team.png" class="withus__lines-icons-img" alt="">
-            <img src="./Assets/images/withUs/lines/small.png" class="withus__lines-icons-img" alt="">
+        <div class="withus__wrapper-content">
+          <div class="withus__wrapper-content-right">
+            <img src="./Assets/images/withUs/second.png" alt="Image" />
+          </div>
+          <div
+            class="withus__wrapper-content-left withus__wrapper-content-left-modif"
+          >
+            <div class="withus__wrapper-content-left-title-box">
+              <h3 class="withus__wrapper-content-left-title">
+                Partner with us!
+              </h3>
+            </div>
+            <p class="withus__wrapper-content-left-text">
+              INFOMAX offers consistently superior service to our customers
+              through personalized communication, ongoing attention to detail,
+              and a "do whatever it takes" attitude on every single shipment.
+            </p>
+          </div>
         </div>
+        <div class="withus__wrapper-content">
+          <div class="withus__wrapper-content-left">
+            <div class="withus__wrapper-content-left-title-box">
+              <h3 class="withus__wrapper-content-left-title">Join the team!</h3>
+              <img
+                src="./Assets/images/withUs/lines/first-line.png"
+                class="withus__wrapper-content-left-title-line"
+                alt=""
+              />
+            </div>
+            <p class="withus__wrapper-content-left-text">
+              INFOMAX offers consistently superior service to our customers
+              through personalized communication, ongoing attention to detail,
+              and a "do whatever it takes" attitude on every single shipment.
+            </p>
+          </div>
+          <div class="withus__wrapper-content-right">
+            <img src="./Assets/images/withUs/third.png" alt="Image" />
+          </div>
+        </div>
+      </div>
+      <div class="withus__lines-icons">
+        <img
+          src="./Assets/images/withUs/kema.png"
+          class="withus__lines-icons-img"
+          alt=""
+        />
+        <img
+          src="./Assets/images/withUs/lines/bigest.png"
+          class="withus__lines-icons-img"
+          alt=""
+        />
+        <img
+          src="./Assets/images/withUs/partners.png"
+          class="withus__lines-icons-img withus__lines-icons-img-back"
+          alt=""
+        />
+        <img
+          src="./Assets/images/withUs/lines/bigest.png"
+          class="withus__lines-icons-img"
+          alt=""
+        />
+        <img
+          src="./Assets/images/withUs/team.png"
+          class="withus__lines-icons-img"
+          alt=""
+        />
+        <img
+          src="./Assets/images/withUs/lines/small.png"
+          class="withus__lines-icons-img"
+          alt=""
+        />
+      </div>
     </section>
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer__top">
-                <div class="footer__top-media-part">
-                    <img src="./Assets/images/logos/white-logo.png" class="footer__top-media-img" alt="">
-                    <div class="footer__media-part-bottom">
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-telegram"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                    </div>
-                </div>
-                <div class="footer__top-connection-part">
-                    <a class="footer__top-connection-part-link" href="#">
-                        <i class="fa-solid fa-phone"></i>
-                        <span>630-413-0404</span>
-                    </a>
-                    <a class="footer__top-connection-part-link" href="#">
-                        <i class="fa-solid fa-phone"></i>
-                        <span>630-468-0893</span>
-                    </a>
-                    <a class="footer__top-connection-part-link" href="#">
-                        <i class="fa-solid fa-envelope"></i>
-                        <span>operations@infomaxfreight.com</span>
-                    </a>
-                </div>
-                <ul class="footer__top_list">
-                    <li class="footer__top_list-item">
-                        <a href="#" class="footer__top_list-item-link">Carriers</a>
-                        <ul class="footer__top-sub-list">
-                            <li class="footer__top-sub-item">
-                                <a href="#" class="footer__top-sub-link">Insights</a>
-                            </li>
-                            <li class="footer__top-sub-item">
-                                <a href="#" class="footer__top-sub-link">Shippers</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="footer__top_list-item">
-                        <a href="#" class="footer__top_list-item-link">Careers</a>
-                        <ul class="footer__top-sub-list">
-                            <li class="footer__top-sub-item">
-                                <a href="#" class="footer__top-sub-link">Who we are</a>
-                            </li>
-                            <li class="footer__top-sub-item">
-                                <a href="#" class="footer__top-sub-link">Contact us</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="footer__top_list-item">
-                        <a href="#" class="footer__top_list-item-link">Privacy and policy</a>
-                        <ul class="footer__top-sub-list">
-                            <li class="footer__top-sub-item">
-                                <a href="#" class="footer__top-sub-link">F.A.Q.</a>
-                            </li>
-                            <li class="footer__top-sub-item">
-                                <a href="#" class="footer__top-sub-link">Sitemap</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__top-media-part">
+            <img
+              src="./Assets/images/logos/white-logo.png"
+              class="footer__top-media-img"
+              alt=""
+            />
+            <div class="footer__media-part-bottom">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-telegram"></i>
+              <i class="fa-brands fa-instagram"></i>
             </div>
-        </div>
-        <hr>
-        <div class="container">
-          <ul class="footer_bottom_list">
-            <li class="footer_bottom-item">
-              <p class="footer_bottom-item-text">This site and all content is copyright ©2020 Infomax Freight, Inc.</p>
+          </div>
+          <div class="footer__top-connection-part">
+            <a class="footer__top-connection-part-link" href="#">
+              <i class="fa-solid fa-phone"></i>
+              <span>630-413-0404</span>
+            </a>
+            <a class="footer__top-connection-part-link" href="#">
+              <i class="fa-solid fa-phone"></i>
+              <span>630-468-0893</span>
+            </a>
+            <a class="footer__top-connection-part-link" href="#">
+              <i class="fa-solid fa-envelope"></i>
+              <span>operations@infomaxfreight.com</span>
+            </a>
+          </div>
+          <ul class="footer__top_list">
+            <li class="footer__top_list-item">
+              <a href="#" class="footer__top_list-item-link">Carriers</a>
+              <ul class="footer__top-sub-list">
+                <li class="footer__top-sub-item">
+                  <a href="#" class="footer__top-sub-link">Insights</a>
+                </li>
+                <li class="footer__top-sub-item">
+                  <a href="#" class="footer__top-sub-link">Shippers</a>
+                </li>
+              </ul>
             </li>
-            <li class="footer_bottom-item">
-              <p class="footer_bottom-item-text">Designed and developed by:</p>
+            <li class="footer__top_list-item">
+              <a href="#" class="footer__top_list-item-link">Careers</a>
+              <ul class="footer__top-sub-list">
+                <li class="footer__top-sub-item">
+                  <a href="#" class="footer__top-sub-link">Who we are</a>
+                </li>
+                <li class="footer__top-sub-item">
+                  <a href="#" class="footer__top-sub-link">Contact us</a>
+                </li>
+              </ul>
+            </li>
+            <li class="footer__top_list-item">
+              <a href="#" class="footer__top_list-item-link"
+                >Privacy and policy</a
+              >
+              <ul class="footer__top-sub-list">
+                <li class="footer__top-sub-item">
+                  <a href="#" class="footer__top-sub-link">F.A.Q.</a>
+                </li>
+                <li class="footer__top-sub-item">
+                  <a href="#" class="footer__top-sub-link">Sitemap</a>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
+      </div>
+      <hr />
+      <div class="container">
+        <ul class="footer_bottom_list">
+          <li class="footer_bottom-item">
+            <p class="footer_bottom-item-text">
+              This site and all content is copyright ©2020 Infomax Freight, Inc.
+            </p>
+          </li>
+          <li class="footer_bottom-item">
+            <p class="footer_bottom-item-text">Designed and developed by:</p>
+          </li>
+        </ul>
+      </div>
     </footer>
 
     <script
